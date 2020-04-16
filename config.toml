@@ -1,4 +1,4 @@
-baseURL = "https://storbukas.github.io/leitemods.no"
+baseURL = "https://storbukas.github.io"
 title = "Leitemods"
 copyright = "Copyright © 2020 Lars Erik Storbukås"
 paginate = 2

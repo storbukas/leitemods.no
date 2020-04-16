@@ -22,7 +22,7 @@ echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages" && git push origin gh-pages
 
 echo "Push to gh-pages branch"
-git push upstream gh-pages
+git push origin gh-pages
 
 #echo "Pushing to github"
 #git push --all
