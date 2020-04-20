@@ -44,6 +44,10 @@ If you want to deploy the generated static site to your gh-pages branch, run
 
 If deploying for the first time, you want to make the script runnable by issuing
 
+```
+chmod +x publish_to_ghpages.sh
+```
+
 ## Initialize Your gh-pages Branch
 
 You can now initialize your gh-pages branch as an empty [orphan branch](https://git-scm.com/docs/git-checkout/#git-checkout---orphanltnewbranchgt):
