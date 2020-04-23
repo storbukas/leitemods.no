@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leitemods</title>
-    <link>https://storbukas.github.io/</link>
+    <link>http://leitemods.no/</link>
     <description>Recent content on Leitemods</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020 Lars Erik Storbukås</copyright>
     
-	<atom:link href="https://storbukas.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://leitemods.no/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
