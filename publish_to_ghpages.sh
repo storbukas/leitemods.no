@@ -21,8 +21,4 @@ echo "Updating gh-pages branch"
 # commit the changes in the clone and push them back to the local gh-pages branch
 cd public && git add --all && git commit -m "Publishing to gh-pages" && git push origin gh-pages
 
-echo "Push to gh-pages branch"
-git push origin gh-pages
-
-#echo "Pushing to github"
-#git push --all
+echo "Run: git push origin gh-pages"
