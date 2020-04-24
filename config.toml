@@ -22,8 +22,8 @@ series = "series"
 author = "authors"
 [params]
 author = "Lars Erik Storbukås"
-description = "Modding av klokker"
-homepageImage = "/images/homepage-image.jpg"
+description = "Custom Seiko mods"
+homepageImage = "/images/homepage-image1.jpg"
 share = true
 showLanguageSwitcher = false
 # Custom CSS and JS. Relative to /static/css and /static/js respectively.
@@ -31,9 +31,8 @@ customCSS = []
 customJS = []
 [params.social]
 email = "leitemods@gmail.com"
-facebook = "https://facebook.com"
-twitter = "https://twitter.com"
-instagram = "https://stackoverflow.com"
+facebook = "https://facebook.com/johannesleite"
+instagram = "https://instagram.com/leitemods"
 [params.prismJS]
    enable = true
    theme = ""
