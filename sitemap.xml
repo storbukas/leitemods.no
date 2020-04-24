@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://leitemods.no/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leitemods.no/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://leitemods.no/authors/</loc>
   </url>
   
   <url>
     <loc>http://leitemods.no/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://leitemods.no/</loc>
   </url>
   
   <url>
