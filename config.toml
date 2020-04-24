@@ -15,6 +15,11 @@ theme = "chunky-poster"
       name = "Hjem"
       url = "#"
       weight = 10
+    [[menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 0
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -24,6 +29,7 @@ author = "authors"
 author = "Lars Erik Storbukås"
 description = "Custom Seiko mods"
 homepageImage = "/images/homepage-image1.jpg"
+logoImage = "/images/logo.png"
 share = true
 showLanguageSwitcher = false
 # Custom CSS and JS. Relative to /static/css and /static/js respectively.

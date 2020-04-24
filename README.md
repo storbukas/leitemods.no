@@ -60,10 +60,25 @@ git push upstream gh-pages
 git checkout master
 ```
 
+## Working with submodules
+
+We use the Chunky Poster as a submodule, if you want to update the submodule, run
+
+```
+git submodule update --remote
+```
+
+If you have made changes to the submodule locally, and wish to remove them, run
+
+```
+git submodule foreach --recursive git reset --hard
+git submodule foreach --recursive git clean -fd
+```
+
 ## Built With
 
 * [Hugo](https://gohugo.io/) - The world’s fastest framework for building websites
-* [Chunky Poster](https://github.com/puresyntax71/hugo-theme-chunky-poster) - Hugo Theme
+* [Chunky Poster](https://github.com/storbukas/hugo-theme-chunky-poster) - Hugo Theme
 * [GitHub Pages](https://pages.github.com/) - Websites for you and your projects
 
 ## Contributing
