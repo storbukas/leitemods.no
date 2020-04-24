@@ -1,4 +1,8 @@
-+++
-author = "Hugo Authors"
-+++
+---
+headless: true
+---
 
+## hjemmesidetekst
+fdsklø
+
+fdksø
