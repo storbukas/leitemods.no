@@ -13,23 +13,18 @@ theme = "chunky-poster"
    [[menu.main]]
       identifier = "hjem"
       name = "Hjem"
-      url = "#"
-      weight = 10
+      url = "/"
+      weight = 1
    [[menu.main]]
       identifier = "sales"
       name = "Til salgs"
       url = "/sales/"
-      weight = 13
+      weight = 2
     [[menu.main]]
      identifier = "kontakt"
      name = "Kontakt"
      url = "/kontakt/"
-     weight = 0
-    [[menu.main]]
-     identifier = "about"
-     name = "Om"
-     url = "/about/"
-     weight = 0
+     weight = 3
 [taxonomies]
 category = "categories"
 tag = "tags"
