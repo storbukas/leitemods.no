@@ -1,6 +1,6 @@
 baseURL = "http://leitemods.no"
 title = "Leitemods"
-copyright = "Copyright © 2020 Lars Erik Storbukås"
+copyright = "Copyright © 2020 Leitemods"
 paginate = 2
 languageCode = "en"
 DefaultContentLanguage = "en"
