@@ -6,10 +6,7 @@ aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
-Ved interesse, ta kontakt på [Instagram](https://instagram.com/leitemods/) eller på
-[mail](mailto:leitemods@gmail.com)
+Ved interesse, se [kontaktsiden](https://leitemods.no/kontakt)
 
 &nbsp;
-#### 2300,- inkludert Norgespakke
-
-{{<instagram B-unTLGJY8z>}}
+#### Ingen klokker til salgs for øyeblikket
