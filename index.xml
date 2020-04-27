@@ -31,5 +31,15 @@
       <description>Jeg kan kontaktes enten via E-post, Instagram eller ved bruk av kontaktskjema under. Gjerne inkluder link eller bilder av design du kan være interessert i.</description>
     </item>
     
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://leitemods.no/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://leitemods.no/privacy/</guid>
+      <description>Leitemods takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
+Collection of Routine Information This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitors to this website. The information is tracked for routine administration and maintenance purposes.</description>
+    </item>
+    
   </channel>
 </rss>
