@@ -1,4 +1,4 @@
-name: github pages
+name: GithubPages
 
 on:
   push:
@@ -9,7 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -17,8 +18,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.68.3'
-          # extended: true
+          hugo-version: '0.69.1'
+          extended: true
 
       - name: Build
         run: hugo --minify

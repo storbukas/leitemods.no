@@ -1,5 +1,8 @@
 # Leitemods
 
+![](https://github.com/storbukas/leitemods.no/workflows/GithubPages/badge.svg)
+[![Website leitemods.no](https://img.shields.io/website-up-down-green-red/http/leitemods.no.svg)](https://leitemods.no/)
+
 This is the source of the [leitemods.no](https://leitemods.no/) website.
 
 ## Getting Started
