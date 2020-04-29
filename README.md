@@ -1,15 +1,30 @@
-# Leitemods
+<h1 align="center">
+  <br>
+  <a href="https://leitemods.no/">
+    <img src="https://raw.githubusercontent.com/storbukas/leitemods.no/master/content/images/logo.png" alt="Leitemods" width="500">
+  </a>
+  <br>
+</h1>
 
-![](https://github.com/storbukas/leitemods.no/workflows/GithubPages/badge.svg)
-[![Website leitemods.no](https://img.shields.io/website-up-down-green-red/http/leitemods.no.svg)](https://leitemods.no/)
+<h4 align="center">A website for <a href="https://leitemods.no/" target="_blank">Leitemods</a>.</h4>
 
-This is the source of the [leitemods.no](https://leitemods.no/) website.
+<p align="center">
+  <a href="https://github.com/storbukas/leitemods.no/">
+    <img src="https://github.com/storbukas/leitemods.no/workflows/GithubPages/badge.svg">
+  </a>
+  <a href="https://leitemods.no/">
+    <img src="https://img.shields.io/website-up-down-green-red/http/leitemods.no.svg">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/badge/License-MIT-blue.svg">
+  </a>
+</p>
 
 ## Getting Started
 
 Download a copy of this repository
 
-```
+```console
 git clone https://github.com/storbukas/leitemods.no.git
 ```
 
@@ -21,7 +36,7 @@ You need to have Hugo installed on your machine in order to run the website loca
 
 Install with [Homebrew](https://brew.sh/) on macOS or Linux
 
-```
+```console
 brew install hugo
 ```
 
@@ -31,7 +46,7 @@ Or check out [Hugo installation guide](https://gohugo.io/getting-started/install
 
 Run it locally by issuing the following command in the folder where you have your code
 
-```
+```console
 hugo server
 ```
 
@@ -41,13 +56,13 @@ You can view your site at [localhost:1313](http://localhost:1313/)
 
 If you want to deploy the generated static site to your gh-pages branch, run
 
-```
+```console
 ./publish_to_ghpages.sh
 ```
 
 If deploying for the first time, you want to make the script runnable by issuing
 
-```
+```console
 chmod +x publish_to_ghpages.sh
 ```
 
@@ -55,7 +70,7 @@ chmod +x publish_to_ghpages.sh
 
 You can now initialize your gh-pages branch as an empty [orphan branch](https://git-scm.com/docs/git-checkout/#git-checkout---orphanltnewbranchgt):
 
-```
+```console
 git checkout --orphan gh-pages
 git reset --hard
 git commit --allow-empty -m "Initializing gh-pages branch"
@@ -67,13 +82,13 @@ git checkout master
 
 We use the Chunky Poster as a submodule, if you want to update the submodule, run
 
-```
+```console
 git submodule update --remote
 ```
 
 If you have made changes to the submodule locally, and wish to remove them, run
 
-```
+```console
 git submodule foreach --recursive git reset --hard
 git submodule foreach --recursive git clean -fd
 ```
