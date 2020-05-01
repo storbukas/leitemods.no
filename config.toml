@@ -1,5 +1,5 @@
 baseURL = "http://leitemods.no"
-title = "Leitemods"
+# title = "Leitemods"
 copyright = "Copyright © 2020 Leitemods"
 paginate = 2
 languageCode = "en"
@@ -32,7 +32,7 @@ series = "series"
 author = "authors"
 [params]
 author = "Lars Erik Storbukås"
-description = "Custom Seiko mods"
+# description = "Custom Seiko mods"
 homepageImage = "/images/homepage-image1.jpg"
 logoImage = "/images/logo.png"
 share = true
